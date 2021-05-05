@@ -19,7 +19,7 @@ npm run build
 |![](https://upload-images.jianshu.io/upload_images/1633070-bc17496de477be89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1633070-8adbbb74aa6f23b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1633070-9bf7be72d471decd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1633070-f78282a97699928e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
 |---|---|---|---|
 |![](https://upload-images.jianshu.io/upload_images/1633070-74c7b75fed9a44f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1633070-8ca09a01561e7dee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1633070-7e57878dedcc063a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1633070-382e80edcb6fcfa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
-### 三、已有功能
+### 四、已有功能
 * 首页banner、文章列表
 * 项目分类
 * 知识体系
