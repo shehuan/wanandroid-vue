@@ -12,7 +12,7 @@ const store = new Vuex.Store({
         // 用户信息
         userInfo: {},
         // 根路由（App中的router-view）要缓存的页面组件
-        catchPages: "Main"
+        cachePages: "Main"
     },
     // 更新state中的状态数据
     mutations: {
@@ -58,14 +58,14 @@ const store = new Vuex.Store({
 
         // 添加要缓存的页面组件
         addKeepAlive(state, name) {
-            if (state.catchPages.indexOf(name) > 0) {
+            if (state.cachePages.indexOf(name) > 0) {
                 return;
             }
-            state.catchPages += ',' + name;
+            state.cachePages += ',' + name;
         },
         // 移除已缓存的页面组件
         removeKeepAlive(state, name) {
-            state.catchPages = state.catchPages.replace(`,${name}`, '');
+            state.cachePages = state.cachePages.replace(`,${name}`, '');
         }
     },
     // actions中通过mutations中的方法变更状态，而不是直接操作state，其中可以执行异步操作

@@ -5,7 +5,7 @@
 <!--        </keep-alive>-->
 <!--        <router-view v-if='!$route.meta.keepAlive'/>-->
 
-    <keep-alive :include="this.$store.state.catchPages" :max="3">
+    <keep-alive :include="this.$store.state.cachePages" :max="3">
       <router-view/>
     </keep-alive>
 
