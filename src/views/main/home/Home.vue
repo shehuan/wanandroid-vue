@@ -95,6 +95,10 @@ export default {
       this.loading = true;
       this.pageNum = 0;
       this.getArticleList();
+    },
+    
+    toArticlePage(link) {
+      window.open(link, '_blank')
     }
   },
 }
